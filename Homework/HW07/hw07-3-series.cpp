@@ -29,7 +29,7 @@ int main() {
 
     do {
         if ( i > 1 ) {
-            printf( "+ " ) ;
+            printf( " +" ) ;
         }
         
         all = all * 10 + 9 ;
