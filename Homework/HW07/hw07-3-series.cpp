@@ -20,21 +20,20 @@
 
 int main() {
     
-    int input ;
-    int sum ;
+    int input , sum ;
     int i = 1 ;
     int all = 0 ;
     printf( "Enter number :\n" ) ;
     scanf( "%d", &input ) ;
-    printf( "Series = " ) ;
+    printf( "Series =" ) ;
 
     do {
         if ( i > 1 ) {
-            printf( "+ " ) ;
+            printf( " +" ) ;
         }
         
         all = all * 10 + 9 ;
-        printf( "%d ", all ) ;
+        printf( " %d", all ) ;
         i++ ;
         sum = sum + all ;
 
