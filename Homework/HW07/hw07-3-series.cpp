@@ -20,8 +20,7 @@
 
 int main() {
     
-    int input ;
-    int sum ;
+    int input , sum ;
     int i = 1 ;
     int all = 0 ;
     printf( "Enter number :\n" ) ;
